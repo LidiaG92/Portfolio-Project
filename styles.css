@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: 'Hubballi', 'cursive'; 
+}
+
+.header-wrapper {
+  height: 50px;
+  background-color: #014462;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 102px 102px;
+  position: sticky;
+  position: -webkit-sticky;
+}
+
+
+.link-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  
+}
+
+
+
+
+.nav-link {
+  width: 150px;
+  font-family: 'Amatic SC' 'cursive';
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 1px;
+
+}
+
+.warm-hug {
+  height: 100px;
+  width: 100px;
+}
