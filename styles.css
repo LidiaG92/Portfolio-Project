@@ -23,8 +23,6 @@ body {
 }
 
 
-
-
 .nav-link {
   width: 150px;
   font-family: 'Amatic SC' 'cursive';
@@ -34,7 +32,28 @@ body {
 
 }
 
+.nav-link:hover {
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+
 .smiling-women {
   height: 100px;
   width: 100px;
+}
+
+.yellow-ribbon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.top-heading {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bottom-heading {
+  display: flex;
+  justify-content: flex-end;
 }
