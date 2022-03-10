@@ -4,12 +4,13 @@ body {
 }
 
 .header-wrapper {
-  height: 50px;
+  background: url(assets/zen-cover.png);
+  background-size: cover;
   background-color: #014462;
   color: #fff;
   display: flex;
-  justify-content: center;
-  padding: 102px 102px;
+  justify-content:space-evenly;
+  padding: 130px 130px;
   position: sticky;
   position: -webkit-sticky;
 }
@@ -17,31 +18,36 @@ body {
 
 .link-wrapper {
   display: flex;
-  justify-content: space-evenly;
-  align-items: flex-end;
+  justify-content: space-between;
+  align-items: center;
   
 }
 
 
 .nav-link {
   width: 150px;
+  height: 150px;
   font-family: 'Amatic SC' 'cursive';
   color: #fff;
   text-decoration: none;
-  letter-spacing: 1px;
-
+  letter-spacing: 1.5px;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-link:hover {
   color: #fff;
-  letter-spacing: 2px;
+  letter-spacing: 2.5px;
 }
 
 
 .smiling-women {
-  height: 100px;
-  width: 100px;
+  height: 110px;
+  width: 110px;
+  padding: 100px;
+
 }
+
 
 .yellow-ribbon {
   display: flex;
@@ -56,4 +62,33 @@ body {
 .bottom-heading {
   display: flex;
   justify-content: flex-end;
+}
+
+.students {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.title {
+  position: absolute;
+  left: 450px;
+  padding: 10px;
+  font-size: 6em;
+  font-family: 'Tangerine', 'serif';
+  text-decoration: underline -2em;
+  color: #1c889d;
+
+
+}
+
+.text {
+  position: absolute;
+  left: 450px;
+  margin-top: 111px;
+  padding: 0px;
+  font-size: 1.5em;
+  font-style: bold;
+  border: 2px solid black;
+  text-align: center;
 }
