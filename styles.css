@@ -22,7 +22,7 @@ body {
    position: absolute;
    left:1025px; 
    top:20px;
-   width: 100px;
+   width: 150px;
    height: auto;
 }
 
@@ -65,7 +65,7 @@ body {
 
 }
 
-.text {
+.text-1 {
   position: absolute;
   left: 475px;
   margin-top: 250px;
@@ -75,7 +75,7 @@ body {
   text-align: center;
 }
 
-.bottom-image {
+.corner-image {
   display: flex;
   justify-content: stretch;
   height: 420px;
@@ -97,6 +97,37 @@ body {
 }
 
 
+
+/* ILLNESS */
+.top-heading {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  margin-top: 7.5px;
+  margin-bottom: 16px;
+  font-size: large;
+  justify-content: space-evenly;
+  text-shadow: 0px 11px 10px rgb(187, 168, 184);
+  text-decoration: underline;
+}
+
+.image-man {
+  height: 100%;
+  width: 100%;
+  padding-left: 16px;
+  image-rendering: crisp-edges;
+}
+
+.text-2 {
+  position:absolute;
+  left: 475px;
+  font-size: 1.5em;
+  font-style: bold;
+  text-align: center;
+  top: 400px;
+  padding-left: 90px;
+}
+
+
 .smiling-women {
   height: 110px;
   width: 110px;
@@ -112,13 +143,7 @@ body {
   justify-content: flex-end;
 }
 
-.top-heading {
-  font-family: 'Inter', sans-serif;
-  display: flex;
-  justify-content: space-evenly;
-  text-shadow: 0px 11px 10px rgb(187, 168, 184);
 
-}
 
 .bottom-heading {
   display: flex;
