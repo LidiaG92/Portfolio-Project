@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="assets/heart-logo.jpeg" type="image/x-icon">
+    <link rel="icon" href="assets/logo-hands.png" type="image/x-icon">
     <title>Portfolio Website</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
-
+    <!-- linking stylesheet -->
+    <link rel="stylesheet" type="text/css" href="./styles.css">
 </head>
 
 <body>
@@ -20,8 +21,7 @@
     <header class="header-wrapper">
         <!-- LOGO LINK-->
         <a href="index.html">
-            <img alt="heal" src="assets/heart-logo.jpeg" width="215" height="215"
-                style="position: absolute; right:1025px; top:20px;">
+            <img class="logo" alt="heal" src="assets/logo-hands.png" width="215" height="215">
         </a>
         <!-- NAVIGATION -->
         <nav class="link-wrapper" style="position:absolute; left:650px; top:200px;">
@@ -37,9 +37,9 @@
         <h1 class="title">Sanar Toma Tiempo</h1>
     </section>
 
-    <div alt="women" class="smiling-women"></div>
-    <img src="assets/mujeres-latinas.jpeg" alt="smiling women" width="500">
-    <main class="main-section">
+    <br>
+
+    <div class="main-section">
         <div class="text">
             <p>
                 El sanar no sucede de la noche a la mañana. Es un proceso que toma tiempo y constancia. A veces duele y
@@ -47,11 +47,35 @@
                 fruto.
             </p>
         </div>
-    </main>
+    </div>
+    <!-- SEARCHBAR -->
+    <div>
+        <input id="searchbar" onkeyup="search_resources()" type="text" name="search" placeholder="Buscar information..">
+    </div>
+    <!-- UNORDERED LIST -->
+    <ul id='list'>
+        <li class="recursos"></li>
+        <li class="recursos"></li>
+        <li class="recursos"></li>
+        <li class="recursos"></li>
+        <li class="recursos"></li>
+        <li class="recursos"></li>
+        <li class="recursos"></li>
+        <li class="recursos"></li>
+        <li class="recursos"></li>
+        <li class="recursos"></li>
+        <li class="recursos"></li>
+    </ul>
 
+    <!-- LINKING JAVASCRIPT -->
+    <script src="./recursos.js"></script>
 
     <!-- FOOTER -->
-    <footer class="footer-wrapper"></footer>
+    <footer class="footer-wrapper">
+        <div class="bottom-image">
+            <img src="assets/heart-logo.jpeg">
+        </div>
+    </footer>
 
 
 </body>
