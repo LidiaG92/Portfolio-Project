@@ -6,12 +6,10 @@ body {
 
 /* MAIN PAGE */
 .header-wrapper {
-  height: 50px;
-  background: url(assets/plant-cover.png) repeat;
+  height: 70px;
+  background: url(assets/plant-cover.png) no-repeat;
   background-size: cover;
-  color: #fff;
-  display: flex;
-  justify-content: stretch;
+  color: #fff;  
   padding: 110px 110px;
   position: sticky;
   position: -webkit-sticky;
@@ -35,24 +33,24 @@ body {
 
 
 .nav-link {
-  width: 150px;
-  height: 150px;
+  width: 185px;
+  height: 185px;
   font-size: 1.2em;
-  font-family: 'Amatic SC' 'cursive';
+  font-family: 'Hubballi', 'cursive';
   color: #fff;
   text-decoration: none;
-  letter-spacing: 1px;
-  display: flex;
-  justify-content: space-between;
+  letter-spacing: 1.5px;
   position: sticky;
   position: -webkit-sticky;
   text-shadow: 0px 11px 10px rgb(187, 168, 184);
+  margin-top: 16px;
 }
 
 .nav-link:hover {
   color: #fff;
   letter-spacing: 2.5px;
 }
+
 
 .title {
   position: absolute;
@@ -62,8 +60,8 @@ body {
   font-family: 'Tangerine', 'serif';
   text-decoration: underline .5px;
   text-shadow: 0px 11px 10px rgb(187, 168, 184);
-
 }
+
 
 .text-1 {
   position: absolute;
@@ -98,7 +96,7 @@ body {
 
 
 
-/* ILLNESS */
+/* ILLNESS PAGE */
 .top-heading {
   font-family: 'Inter', sans-serif;
   display: flex;
@@ -111,38 +109,51 @@ body {
 }
 
 .image-man {
-  height: 100%;
-  width: 100%;
+  height: 50%;
+  width: 50%;
   padding-left: 16px;
+  margin-right: 26px;
   image-rendering: crisp-edges;
-}
-
-.text-2 {
-  position:absolute;
-  left: 475px;
-  font-size: 1.5em;
-  font-style: bold;
-  text-align: center;
-  top: 400px;
-  padding-left: 90px;
-}
-
-
-.smiling-women {
-  height: 110px;
-  width: 110px;
-  padding: 100px;
   position: sticky;
   position: -webkit-sticky;
+  
+}
 
+.list {
+  margin-left: 16px;
+}
+
+/* RESOURCES PAGE */
+.smiling-women {
+  height: 50%;
+  width: 50%;
+  padding-left: 16px;
+  margin-right: 26px;
+  image-rendering: crisp-edges;
+  position: sticky;
+  position: -webkit-sticky;
 }
 
 
+/* SUICIDE PAGE */
 .yellow-ribbon {
   display: flex;
   justify-content: flex-end;
+  position: sticky;
+  position: -webkit-sticky;
+  padding-right: 18px;
 }
 
+.information {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 475px;
+  font-size: 1.3em;
+  text-align: left;
+  top: 375px;
+  padding-left: 18px;
+}
 
 
 .bottom-heading {
@@ -150,8 +161,11 @@ body {
   justify-content: flex-end;
 }
 
+/* ABOUT PAGE */
 .students {
   display: flex;
   justify-content: flex-end;
   align-items: baseline;
+  padding-right: 25px;
 }
+
