@@ -16,7 +16,8 @@ body {
 
 
 
-/* CONDITIONS PAGE */
+/* -------------------------------- */
+/* ILLNESS PAGE */
 .top-heading {
   font-family: 'Inter', sans-serif;
   display: flex;
@@ -32,11 +33,22 @@ body {
   height: 50%;
   width: 50%;
   padding-left: 16px;
+  padding-right: 16px;
   margin-right: 26px;
- 
 }
 
 
+.conditions {
+  font-family: 'Hubballi', 'cursive';
+  font-size: 1.2em;
+  padding: 20px;
+  margin: 42px;
+  border-radius: 10px;
+  border: dotted 3px;
+}
+
+
+/* ------------------------- */
 /* MAIN/INDEX PAGE */
 .header-wrapper {
   margin: 0 0 0 0;
@@ -44,11 +56,9 @@ body {
   background: url(assets/plant-cover.png) no-repeat;
   background-size: cover;
   color: #fff;  
-  padding: 110px 110px 110px 110px;
+  padding: 110px 110px;
   position: sticky;
-  position: -webkit-sticky;
-  
-  
+  position: -webkit-sticky;  
 }
 
 .logo {
@@ -101,7 +111,6 @@ body {
 }
 
 
-
 .main-quote {
   position: absolute;
   left: 475px;
@@ -135,52 +144,36 @@ body {
 }
 
 
-.footer-wrapper {
-  height: 70px;
-  background-color: #d3ccd0;
-  background-size: cover;
-  color: #fff;  
-  padding: 110px 110px;
-  position: sticky;
-  position: -webkit-sticky;
-  
-
+.footer {
+  padding: 25px;
+  width: 98.8vw;
+  display: block;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-color: #d2c9ce6c;
 }
 
-.lbhs-logo {
-  position: absolute;
-  left: 960px;
-  top: 20px;
-  width: auto;
+.nami-logo {
+  padding-left: 0;
   height: auto;
-
-}
-.nami-logo{
-  width: 350px;
-  height: 100px;
-  margin-left: -70px;
-  margin-top: -95px;
 }
 
-.pride-logo {
-  width: 250px;
-  height: 175px;
-  position: absolute;
-  left: 860px;
-  bottom: 20px;
-}
 
+/* ------------------------------ */
 /* RESOURCES PAGE */
 .smiling-women {
   height: 50%;
   width: 50%;
   padding-left: 16px;
   margin-right: 26px;
+  margin-bottom: 26px;
   image-rendering: crisp-edges;
 }
 
 
 
+
+/* -------------------------------- */
 /* SUICIDE PAGE */
 .yellow-ribbon {
   display: flex;
