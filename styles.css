@@ -2,18 +2,30 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Hubballi', 'cursive'; 
-  background-color: #f8f8ff;
- 
+  background-color: #fff;
+
 }
+
 
 /* ABOUT PAGE */
 .students {
-  display: flex;
-  justify-content: flex-end;
-  align-items: baseline;
-  padding-right: 25px;
+  margin-right: 10px;
+  margin-bottom: 50%;
+
 }
 
+
+.statistics {
+  font-family: 'Raleway', sans-serif;
+  font-size: -16px;
+  letter-spacing: 0px;
+  word-spacing: 1px;
+  padding: 0px;
+  margin-bottom: 2px;
+  text-align: left;
+  margin-left: 16px;
+  margin-right: 10px;
+}
 
 
 /* -------------------------------- */
@@ -27,37 +39,54 @@ body {
   justify-content: space-evenly;
   text-shadow: 0px 11px 10px rgb(187, 168, 184);
   text-decoration: underline;
+  color: #271812;
 }
 
 .wide-image {
   height: 50%;
   width: 50%;
-  padding-left: 16px;
-  padding-right: 16px;
-  margin-right: 26px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 16px;
+  margin-left: 16px;
+  margin-bottom: 50%;
+  border: 4px dotted #355070;
+  
 }
-
 
 .conditions {
-  font-family: 'Hubballi', 'cursive';
-  font-size: 1.2em;
-  padding: 20px;
-  margin: 42px;
- 
+  font-family: 'Raleway', sans-serif;
+  font-size: -16px;
+  letter-spacing: 0px;
+  word-spacing: 1px;
+  padding: 0px;
+  margin-bottom: 2px;
+  text-align: left;
 }
 
+li {
+  list-style: none;
+}
+
+a {
+  color: #355070;
+  text-decoration-style: none;
+  font-size: 1.2em;
+  word-spacing: 1px;
+  text-justify:newspaper;
+}
 
 /* ------------------------- */
 /* MAIN/INDEX PAGE */
 .header-wrapper {
   margin: 0 0 0 0;
   height: 70px;
-  background: url(assets/plant-cover.png) no-repeat;
+  background: url(assets/plant-cover.png);
   background-size: cover;
-  color: #fff;  
   padding: 110px 110px;
   position: sticky;
-  position: -webkit-sticky;  
+  position: -webkit-sticky;
+  border-bottom: 2px solid white;
 }
 
 .logo {
@@ -68,6 +97,7 @@ body {
    width: 150px;
    height: auto;
    margin: 0;
+   border: 1px solid #50372d;
 }
 
 
@@ -83,12 +113,12 @@ body {
   height: 185px;
   font-size: 1.2em;
   font-family: 'Hubballi', 'cursive';
-  color: #fff;
+  color: #50372d;
   text-decoration: none;
   letter-spacing: 1.5px;
   position: sticky;
   position: -webkit-sticky;
-  text-shadow: 0px 11px 10px rgb(187, 168, 184);
+  text-shadow: 0px 11px 10px #b6a3b5;
   margin-top: 16px
 }
 
@@ -100,57 +130,51 @@ body {
 
 .title {
   position: absolute;
-  left: 450px;
+  text-indent: 2em;
   padding: 10px;
   font-size: 5.5em;
   font-family: 'Tangerine', 'serif';
   text-decoration: underline .5px;
   text-shadow: 0px 11px 10px rgb(187, 168, 184);
-  color: black;
+  color: #50372d;
+  margin-bottom: 150px;
 }
 
 
 .main-quote {
-  position: absolute;
-  left: 475px;
-  margin-top: 250px;
-  padding: 15px;
-  font-size: 1.5em;
-  font-style: bold;
   text-align: center;
+  margin-top: 150px;
+  margin-left: 150px;
+  margin-right: 150px;
+  white-space: pre-line;
+  font-size: 1.5em;
+  font-family: 'Hubballi' , 'cursive';
+  
 }
+
+
+
 
 .corner-image {
   display: flex;
   justify-content: stretch;
   height: 420px;
   width: 420px;
-  margin-top: 500px;
+  margin-top: 350px;
   padding-bottom: 10px;
   padding-left: 16px;
-}
-
-.searchbar {
-  margin-left: 15%;
-  padding:15px;
-  border-radius: 10px;
-}
-
-.input[type=text] {
-  width: 30%;
-  -webkit-transition: width 0.15s ease-in-out;
-  transition: width 0.15s ease-in-out;
 }
 
 
 .footer {
   padding: 25px;
   width: 98.8vw;
-  height: auto;
+  height: 100%;
   display: block;
   overflow: hidden;
   box-sizing: border-box;
   background-color: #d2c9ce6c;
+  border-top: 2px solid white;
 }
 
 .nami-logo {
@@ -177,6 +201,21 @@ body {
 /* SUICIDE PAGE */
 
 .yellow-ribbon {
-
+  height: 50%;
+  width: 50%;
   margin-bottom: 26px;
+  margin-right: 20px;
+  border: 2px solid silver;
+}
+
+.suicide-articles {
+  font-family: 'Raleway', sans-serif;
+  font-size: -16px;
+  letter-spacing: 0px;
+  word-spacing: 1px;
+  padding: 0px;
+  margin-bottom: 2px;
+  text-align: left;
+  margin-left: 16px;
+  margin-right: 14px;
 }
