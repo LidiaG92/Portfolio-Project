@@ -92,9 +92,9 @@ a {
 .logo {
    border-radius: 100px;
    position: absolute;
-   left:1025px; 
-   top:20px;
-   width: 150px;
+   left: 890px; 
+   top: 16px;
+   width: 145px;
    height: auto;
    margin: 0;
    border: 1px solid #50372d;
@@ -128,41 +128,44 @@ a {
 }
 
 
-.title {
+.titletext {
   position: absolute;
-  text-indent: 2em;
-  padding: 10px;
-  font-size: 5.5em;
-  font-family: 'Tangerine', 'serif';
+  font-size: 2.2em;
+  font-family: 'Tangerine','serif';
+  word-spacing: .5em;
   text-decoration: underline .5px;
   text-shadow: 0px 11px 10px rgb(187, 168, 184);
   color: #50372d;
-  margin-bottom: 150px;
+  top: 8px;
+  right: -45%;
+  top: -6%;
 }
 
 
-.main-quote {
+.quote {
+  float: right;
+  font-size: 150%;
+  font-family: 'Hubballi','cursive';
+  margin-right: 6%;
+  margin-top: 30px;
+  white-space: nowrap;
   text-align: center;
-  margin-top: 150px;
-  margin-left: 150px;
-  margin-right: 150px;
-  white-space: pre-line;
-  font-size: 1.5em;
-  font-family: 'Hubballi' , 'cursive';
-  
+  word-spacing: normal;
 }
 
+.container {
+  height: 405px;
+  width: 400px;
+  position: relative;
+  margin-bottom: 16%;
+  margin-top: 2%;
+}
 
-
-
-.corner-image {
-  display: flex;
-  justify-content: stretch;
-  height: 420px;
-  width: 420px;
-  margin-top: 350px;
-  padding-bottom: 10px;
-  padding-left: 16px;
+.container-image {
+  position: absolute;
+  height: 120%;
+  border: 6px double #355070;
+  margin-left: 20%;
 }
 
 
