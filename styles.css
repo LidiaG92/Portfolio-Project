@@ -49,7 +49,7 @@ body {
   padding-right: 0;
   margin-right: 16px;
   margin-left: 16px;
-  margin-bottom: 25%;
+  margin-bottom: 5%;
   border: 4px dotted #355070;
   
 }
@@ -63,6 +63,20 @@ body {
   margin-bottom: 2px;
   text-align: left;
 }
+
+.bottom-header {
+  float: right;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  text-align: left;
+  margin-right: 10px;
+  margin-left: 10px;
+  white-space: normal;
+  background-color: lightgrey;
+  border: 2px solid #355070;
+  padding-left: 4px;
+}
+
 
 li {
   list-style: none;
