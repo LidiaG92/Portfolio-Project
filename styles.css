@@ -264,22 +264,39 @@ a {
 
 .nami-logo {
   padding-left: 0;
-  height: auto;
+  
 }
+
 
 
 /* ------------------------------ */
 /* RESOURCES PAGE */
 .smiling-women {
-  height: 50%;
-  width: 50%;
-  padding-left: 16px;
+  height: 45%;
+  width: 40%;
   margin-right: 26px;
-  margin-bottom: 26px;
+  margin-left: 12px;
+  margin-top: 16px;
+  margin-bottom: 16%;
   image-rendering: crisp-edges;
+  border: 2px dashed #e2725b;
 }
 
 
+
+.resources {
+  margin-top: 30px;
+  margin-left: 4%;
+  margin-right: 4.2%;
+  margin-bottom: 16%;
+  letter-spacing: .02em;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  text-align: justify;
+  word-spacing: .05em;
+  white-space: inherit;
+  background-color: #f2f3f4;
+}
 
 
 /* -------------------------------- */
