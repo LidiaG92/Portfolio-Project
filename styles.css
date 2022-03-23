@@ -2,31 +2,72 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Hubballi', 'cursive'; 
-  background-color: #fff;
+  background-color: #f2f3f4;
 
 }
 
 
 /* ABOUT PAGE */
-.students {
-  margin-right: 10px;
-  margin-bottom: 50%;
 
+.about-heading {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  margin-top: 7.5px;
+  margin-bottom: 5px;
+  margin-right: 25%;
+  float: right;
+  font-size: large;
+  justify-content: space-evenly;
+  text-shadow: 0px 11px 10px rgb(187, 168, 184);
+  text-decoration: underline;
+  color: #271812;
 }
 
-
-.statistics {
-  font-family: 'Raleway', sans-serif;
-  font-size: -16px;
-  letter-spacing: 0px;
-  word-spacing: 1px;
-  padding: 0px;
-  margin-bottom: 2px;
-  text-align: left;
+.main-info {
+  margin-top: 135px;
   margin-left: 16px;
-  margin-right: 10px;
+  margin-right: 2%;
+  letter-spacing: .02em;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  text-align: justify;
+  word-spacing: .05em;
+  white-space: inherit;
+  background-color: #f2f3f4;
+
 }
 
+.bottom-info {
+  margin-top: 100px;
+  margin-left: 16px;
+  margin-right: 16px;
+  letter-spacing: .02em;
+  font-family: 'Raleway', sans-serif;
+  font-style: oblique;
+  font-size: 1em;
+  text-align: left;
+  white-space: normal;
+  background-color: #f2f3f4;
+ 
+}
+
+.video {
+  margin-top: 5%;
+  margin-right: 2%;
+  margin-bottom: 25px;
+  border: 2px solid #355070;
+
+}
+
+.color-brain {
+  float: left;
+  height: 34%;
+  width: 34%;
+  margin-left: 16px;
+  margin-top: 25px;
+  margin-right: 16px;
+  border: 2px dotted #8e3a59;
+}
 
 /* -------------------------------- */
 /* ILLNESS PAGE */
@@ -49,7 +90,7 @@ body {
   padding-right: 0;
   margin-right: 16px;
   margin-left: 16px;
-  margin-bottom: 5%;
+  margin-bottom: 7%;
   border: 4px dotted #355070;
   
 }
@@ -60,21 +101,40 @@ body {
   letter-spacing: 0px;
   word-spacing: 1px;
   padding: 0px;
-  margin-bottom: 2px;
+  margin-bottom: 16px;
   text-align: left;
 }
 
 .bottom-header {
-  float: right;
+  float: left;
+  letter-spacing: .05em;
   font-family: 'Raleway', sans-serif;
   font-size: 1em;
   text-align: left;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 1%;
+  margin-left: 1%;
   white-space: normal;
-  background-color: lightgrey;
-  border: 2px solid #355070;
-  padding-left: 4px;
+  background-color: #f2f3f4;
+  border: 3px double rgb(15, 77, 146);
+  padding-left: 6px;
+  padding-right: 2px;
+  margin-bottom: 10px;
+}
+
+
+.bottom-image {
+  margin-top: 4%;
+  margin-bottom: 5%;
+  margin-right: 1%;
+  border: 2px solid #367588;
+}
+
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  text-shadow: 0px 11px 10px rgba(15, 76, 146, 0.678);
+  font-size: 1.3em;
+  margin-left: 20%;
 }
 
 
@@ -100,7 +160,6 @@ a {
   padding: 110px 110px;
   position: sticky;
   position: -webkit-sticky;
-  border-bottom: 2px solid white;
 }
 
 .logo {
@@ -148,8 +207,8 @@ a {
   font-family: 'Tangerine','serif';
   word-spacing: .5em;
   text-decoration: underline .5px;
-  text-shadow: 0px 11px 10px rgb(187, 168, 184);
-  color: #50372d;
+  text-shadow: 0px 11px 10px #bba8b8;
+  color: rgb(80, 55, 45);
   top: 8px;
   right: -45%;
   top: -6%;
@@ -158,13 +217,16 @@ a {
 
 .quote {
   float: right;
-  font-size: 150%;
+  font-size: 170%;
   font-family: 'Hubballi','cursive';
-  margin-right: 6%;
+  text-shadow: 0px 11px 10px rgba(80, 55, 45, 0.315);
   margin-top: 30px;
   white-space: nowrap;
-  text-align: center;
+  text-align: left;
   word-spacing: normal;
+  margin-right: 12px;
+  color: #50372d;
+
 }
 
 .container {
@@ -182,16 +244,22 @@ a {
   margin-left: 20%;
 }
 
+.flower-image {
+  float: right;
+  position: relative;
+  margin-top: 16px;
+  border: 2.2px dotted #b38b6d;
+}
 
 .footer {
-  padding: 25px;
+  padding: 15px;
   width: 98.8vw;
   height: 100%;
   display: block;
   overflow: hidden;
   box-sizing: border-box;
-  background-color: #d2c9ce6c;
-  border-top: 2px solid white;
+  background-color: #f8f4ff;
+  border-top: 2px solid #b39eb5;
 }
 
 .nami-logo {
