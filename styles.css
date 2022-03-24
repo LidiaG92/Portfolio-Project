@@ -277,11 +277,10 @@ a {
   margin-right: 26px;
   margin-left: 12px;
   margin-top: 16px;
-  margin-bottom: 16%;
+  margin-bottom: 9%;
   image-rendering: crisp-edges;
   border: 2px dashed #e2725b;
 }
-
 
 
 .resources {
@@ -299,6 +298,30 @@ a {
 }
 
 
+.text-quote {
+  font-family: 'Hubballi', 'cursive';
+  font-size: 2em;
+  color: #cc6666;
+  white-space: pre-wrap;
+  text-align: center;
+  justify-content: center;
+  text-shadow: 1px 1px 1px rgba(122, 60, 35, 0.705);;
+  margin-top: -100px;
+  margin-bottom: 2%;
+}
+
+.final-image {
+  height: 50%;
+  width: 50%;
+  margin-bottom: 5%;
+  justify-content: center;
+  margin-left: 25%;
+  margin-top: -20px;
+  border: 3px solid #355070;
+
+}
+
+
 /* -------------------------------- */
 /* SUICIDE PAGE */
 
@@ -308,8 +331,9 @@ a {
   height: 50%;
   width: 50%;
   margin-bottom: 26px;
-  margin-right: 20px;
+  margin-right: 28px;
   border: 3px solid #F4A460;
+  word-spacing: 1px;
 }
 
 
