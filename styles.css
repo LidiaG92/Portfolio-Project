@@ -8,7 +8,6 @@ body {
 
 
 /* ABOUT PAGE */
-
 .about-heading {
   font-family: 'Inter', sans-serif;
   display: flex;
@@ -101,8 +100,9 @@ body {
   letter-spacing: 0px;
   word-spacing: 1px;
   padding: 0px;
-  margin-bottom: 16px;
+  margin-bottom: 7%;
   text-align: left;
+  margin-top: -16px;
 }
 
 .bottom-header {
@@ -118,7 +118,7 @@ body {
   border: 3px double rgb(15, 77, 146);
   padding-left: 6px;
   padding-right: 2px;
-  margin-bottom: 10px;
+  margin-bottom: 5%;
 }
 
 
@@ -252,10 +252,11 @@ a {
 }
 
 .footer {
-  padding: 15px;
+  padding: 20px;
   width: 98.8vw;
-  height: 100%;
+  height: 80%;
   display: block;
+  justify-content: space-evenly;
   overflow: hidden;
   box-sizing: border-box;
   background-color: #f8f4ff;
@@ -263,10 +264,26 @@ a {
 }
 
 .nami-logo {
-  padding-left: 0;
-  
+  margin-left: 20%;
+  margin-top: 1%;
 }
 
+.pride-logo {
+  margin-left: 45%;
+  margin-top: -6%;
+}
+
+.lifeline-logo {
+  height: 2%;
+  width: 2%;
+  margin-left: 2%;
+  margin-top: -9%;
+}
+
+.liveon {
+  margin-left: 65%;
+  margin-top: -10%;
+}
 
 
 /* ------------------------------ */
@@ -325,24 +342,67 @@ a {
 /* -------------------------------- */
 /* SUICIDE PAGE */
 
-
-
 .imagequote {
-  height: 50%;
-  width: 50%;
+  height: 32%;
+  width: 37%;
   margin-bottom: 26px;
-  margin-right: 28px;
+  margin-right: 16px;
+  margin-left: 1%;
   border: 3px solid #F4A460;
-  word-spacing: 1px;
+}
+
+
+.suicide-articles {
+  letter-spacing: .02em;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  text-align: justify;
+  word-spacing: .05em;
+  white-space: inherit;
+  background-color: #f2f3f4;
+  margin-bottom: 16px;
+  margin-top: -16px;
+  margin-right: 2.2%;
+  font-style: oblique;
 }
 
 
 .synopsys {
+  letter-spacing: .02em;
   font-family: 'Raleway', sans-serif;
-  font-size: 118%;
-  letter-spacing: 0px;
-  word-spacing: 0px;
-  text-align: center;
+  font-size: 1em;
+  text-align: justify;
+  word-spacing: .05em;
+  white-space: inherit;
+  background-color: #f2f3f4;
   margin-bottom: 16px;
-  margin-top: -16px;
+  margin-top: -12;
+  margin-right: 2.2%;
+}
+
+
+.hotline {
+  margin-left: 8%;
+  margin-bottom: 20px;
+  padding-left: 8px;
+  margin-right: 2%;
+  height: 80%;
+  width: 85%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1em;
+  letter-spacing: .01em;
+  white-space: inherit;
+  margin-top: 12%;
+  border: 2px double #0a7e8c;
+  color: #483d8b;
+  text-align: justify;
+}
+
+
+.image-signs {
+  height: 20%;
+  width: 20%;
+  margin-left: 2%;
+  border-bottom: 1px dotted #0a7e8c;
+  border-left: 1px dotted #0a7e8c;
 }
